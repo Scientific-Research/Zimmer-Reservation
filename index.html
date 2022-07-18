@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weclome to our Hotel</title>
+  </head>
+  <body>
+    <h1>Welcome to our Hotel</h1>
+    <main>
+      <form action="javascript:run()">
+        <label for="abreiseDatum">Check-In:</label>
+        <input type="date" id="abreiseDatum" name="abreiseDatum" required />
+
+        <label for="anreiseDatum">Check-Out:</label>
+        <input type="date" id="anreiseDatum" name="anreiseDatum" required />
+
+        <!-- <label for="AnzahlderNächte">Anzahl der Nächte </label>
+        <input type="number" id="AnzahlderNächte" min="1" required /> -->
+
+        <label for="AnzahlderGäste">Anzahl der Gäste</label>
+        <input type="number" id="AnzahlderGäste" min="1" required />
+
+        <label for="breakfast">Frühstück</label>
+        <input class="checkbox" type="checkbox" id="breakfast" />
+
+        <p id="ausgabe"></p>
+
+        <button type="submit">Berechnen!</button>
+      </form>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

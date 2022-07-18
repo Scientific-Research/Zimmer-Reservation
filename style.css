@@ -1,0 +1,93 @@
+/* Die Elemente des Formulars untereinandar */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+body {
+  background-image: url(hotel.jpg);
+  font-family: "Dancing Script", cursive;
+  font-size: larger;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-size: cover; */
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Zentriert das Formular in der Mitte */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-size: larger;
+  padding-top: 10px;
+}
+button {
+  font-size: larger;
+  font-family: "Dancing Script", cursive;
+}
+
+.checkbox {
+  margin-top: -23px;
+  width: 25px;
+  height: 25px;
+  margin-left: 87px;
+}
+
+h1 {
+  color: azure;
+  /* width: 100px;
+    height: 100px; */
+  background-color: red;
+  position: absolute;
+  animation-name: example;
+  animation-duration: 4s;
+  /* animation-iteration-count: 3; */
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  /* 0% {
+        background-color: red;
+        left: 20px;
+        top: 20px;
+    }
+    25% {
+        background-color: yellow;
+        left: 1530px;
+        top: 20px;
+    }
+    50% {
+        background-color: blue;
+        left: 1530px;
+        top: 800px;
+    }
+    75% {
+        background-color: green;
+        left: 20px;
+        top: 800px;
+    }
+    100% {
+        background-color: red;
+        left: 20px;
+        top: 20px;
+    }
+    */
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
+  }
+}
